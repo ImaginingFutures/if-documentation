@@ -495,6 +495,10 @@ document.write(`
 <section id="redis-server">
 <h2>Redis-server<a class="headerlink" href="#redis-server" title="Permalink to this heading">#</a></h2>
 <p>Redis is used to cache the results of the search engine. Installation is very straightforward, just follow the instructions from <a class="reference external" href="https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-20-04">Digital Ocean</a>.</p>
+<p>Redis php8.2 extension is needed. Use the following command and restart Apache:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>php-redis
+</pre></div>
+</div>
 </section>
 <section id="elasticsearch">
 <h2>Elasticsearch<a class="headerlink" href="#elasticsearch" title="Permalink to this heading">#</a></h2>

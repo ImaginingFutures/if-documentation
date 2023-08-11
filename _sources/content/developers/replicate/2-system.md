@@ -62,6 +62,12 @@ We installed Fail2ban in the application server to avoid brute force attacks. We
 
 Redis is used to cache the results of the search engine. Installation is very straightforward, just follow the instructions from [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-20-04).
 
+Redis php8.2 extension is needed. Use the following command and restart Apache:
+
+```bash
+sudo apt-get install php-redis
+```
+
 ## Elasticsearch
 
 Elasticsearch is used to index the records in the database. We followed the instructions from [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-20-04). Collective Access documentation regarding [ElasticSearch](https://manual.collectiveaccess.org/providence/user/searchBrowse/searchEngines/elastic.html) points out that we need to install the version 2.0 or higher. We installed the version [7.17.12](https://www.elastic.co/guide/en/elasticsearch/reference/7.17/release-notes-7.17.12.html).

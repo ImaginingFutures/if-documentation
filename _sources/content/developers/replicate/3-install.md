@@ -11,3 +11,6 @@ git clone --depth 1 --branch if-providence https://github.com/ImaginingFutures/p
 git clone --depth 1 --branch if-pawtucket https://github.com/ImaginingFutures/pawtucket2.git /var/www/html/ifrepo
 ```
 
+## Configuration
+
+- Installation profile: \[Standard\] ISAD(G) - General Standard Archival Description
