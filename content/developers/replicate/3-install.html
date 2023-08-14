@@ -359,6 +359,7 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#repositories">Repositories</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#configuration">Configuration</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#media-folders">Media folders</a></li>
 </ul>
             </nav>
         </div>
@@ -386,6 +387,36 @@ git<span class="w"> </span>clone<span class="w"> </span>--depth<span class="w"> 
 <ul class="simple">
 <li><p>Installation profile: [Standard] ISAD(G) - General Standard Archival Description</p></li>
 </ul>
+</section>
+<section id="media-folders">
+<h2>Media folders<a class="headerlink" href="#media-folders" title="Permalink to this heading">#</a></h2>
+<p>It’s possible that the media folders are not created automatically. If that’s the case, create the following folders:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>mkdir<span class="w"> </span>/var/www/html/ifrepo-admin/media/collectiveaccess
+mkdir<span class="w"> </span>/var/www/html/ifrepo-admin/media/collectiveaccess/images
+mkdir<span class="w"> </span>/var/www/html/ifrepo-admin/media/collectiveaccess/tilepics
+mkdir<span class="w"> </span>/var/www/html/ifrepo-admin/media/collectiveaccess/workspace
+mkdir<span class="w"> </span>/var/www/html/ifrepo-admin/media/collectiveaccess/flv
+mkdir<span class="w"> </span>/var/www/html/ifrepo-admin/media/collectiveaccess/quicktime
+mkdir<span class="w"> </span>/var/www/html/ifrepo-admin/media/collectiveaccess/windowsmedia
+mkdir<span class="w"> </span>/var/www/html/ifrepo-admin/media/collectiveaccess/swf
+mkdir<span class="w"> </span>/var/www/html/ifrepo-admin/media/collectiveaccess/mp3
+</pre></div>
+</div>
+<p>All folder must have the following permissions:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>chown<span class="w"> </span>-R<span class="w"> </span>www-data:www-data<span class="w"> </span>/var/www/html/ifrepo-admin/media/collectiveaccess
+</pre></div>
+</div>
+<p>As the media files are the same for both Providence and Pawtucket2, we can create a symbolic link to the media folder in the Pawtucket2 installation:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ln<span class="w"> </span>-s<span class="w"> </span>/var/www/html/ifrepo-admin/media/collectiveaccess<span class="w"> </span>/var/www/html/ifrepo/media/collectiveaccess
+</pre></div>
+</div>
+<p>Other folders that need permissions:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>chown<span class="w"> </span>-R<span class="w"> </span>www-data:www-data<span class="w"> </span>/var/www/html/ifrepo-admin/app/tmp
+chown<span class="w"> </span>-R<span class="w"> </span>www-data:www-data<span class="w"> </span>/var/www/html/ifrepo-admin/app/log
+</pre></div>
+</div>
+<p>It’s possible that after installation some other folders needs to be created and/or permissions need to be changed. If that’s the case, the installation process will let you know.</p>
+<p>And that’s it! You can now access to the Providence and Pawtucket2 installations.</p>
 </section>
 </section>
 
@@ -449,6 +480,7 @@ git<span class="w"> </span>clone<span class="w"> </span>--depth<span class="w"> 
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#repositories">Repositories</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#configuration">Configuration</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#media-folders">Media folders</a></li>
 </ul>
   </nav></div>
 
