@@ -7,8 +7,8 @@ Standard installation instructions for Providence and Pawtucket2 are available i
 Clone the forked repositories:
 
 ```bash
-git clone --depth 1 --branch if-providence https://github.com/ImaginingFutures/providence.git /var/www/html/ifrepo-admin
-git clone --depth 1 --branch if-pawtucket https://github.com/ImaginingFutures/pawtucket2.git /var/www/html/ifrepo
+git clone --depth 1 --branch dev/php8 https://github.com/ImaginingFutures/providence.git /var/www/html/ifrepo-admin
+git clone --depth 1 --branch dev/php8 https://github.com/ImaginingFutures/pawtucket2.git /var/www/html/ifrepo
 ```
 
 ## Configuration

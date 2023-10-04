@@ -335,9 +335,7 @@ document.write(`
   </button>
 `);
 </script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</label>
+
 </div></div>
       
     </div>
@@ -353,15 +351,6 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#branch-structure">Branch structure</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#notes">Notes</a></li>
-</ul>
-            </nav>
         </div>
     </div>
 </div>
@@ -374,25 +363,13 @@ document.write(`
   <section class="tex2jax_ignore mathjax_ignore" id="collective-access-codebase-strategy">
 <h1>Collective Access Codebase Strategy<a class="headerlink" href="#collective-access-codebase-strategy" title="Permalink to this heading">#</a></h1>
 <p>In pursuit of the long-term sustainability of the codebase for this project, we’ve devised a strategic approach. Firstly, we’ve chosen to fork the Collective Access codebase, enabling us to implement and track our modifications while maintaining synchronization with the main Collective Access codebase.</p>
+<p>Forked repositories:</p>
+<ul class="simple">
+<li><p>Providence: <a class="github reference external" href="https://github.com/ImaginingFutures/providence">ImaginingFutures/providence</a></p></li>
+<li><p>Pawtucket2: <a class="github reference external" href="https://github.com/ImaginingFutures/pawtucket2">ImaginingFutures/pawtucket2</a></p></li>
+</ul>
+<p>Secondly, we’ve opted to utilize a release candidate version of Collective Access (<a class="reference external" href="https://github.com/collectiveaccess/providence/tree/dev/php8">2.0</a>) instead of the latest stable version (1.7.17 - January 25, 2023), which lacks PHP 8 support. This choice is aimed at enhancing our ability to manage future updates to the Collective Access codebase. Additionally, the utilization of PHP 8 brings about noteworthy advancements in terms of speed, security, and efficiency.</p>
 <p>Another crucial decision pertains to the selection of  <a class="reference external" href="https://www.php.net/releases/8.2/en.php">PHP 8.2</a> for the project. This choice is aimed at enhancing our ability to manage future updates to the Collective Access codebase. Additionally, the utilization of PHP 8 brings about noteworthy advancements in terms of speed, security, and efficiency. Consequently, we’ve opted to employ a release candidate version of Collective Access instead of the latest stable version (1.7.16 - June 25, 2022), which lacks PHP 8 support.</p>
-<section id="branch-structure">
-<h2>Branch structure<a class="headerlink" href="#branch-structure" title="Permalink to this heading">#</a></h2>
-<p>We’ve established two distinct branches within the Collective Access codebase: <code class="docutils literal notranslate"><span class="pre">if-providence</span></code> and <code class="docutils literal notranslate"><span class="pre">if-pawtucket</span></code>. The former encompasses modifications related to the Providence component, while the latter houses changes associated with the Pawtucket component of the Collective Access framework <a class="footnote-reference brackets" href="#id2" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a>.</p>
-<p>Both <code class="docutils literal notranslate"><span class="pre">if-providence</span></code> and <code class="docutils literal notranslate"><span class="pre">if-pawtucket</span></code> branches are built upon the <code class="docutils literal notranslate"><span class="pre">dev/php8</span></code> branch of the Collective Access codebase. This particular branch represents a release candidate for the upcoming Providence and Pawtucket2 (2.0) versions.</p>
-<p>You can find the original branches at the following locations:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Providence</span><span class="p">:</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">ImaginingFutures</span><span class="o">/</span><span class="n">providence</span><span class="o">/</span><span class="n">tree</span><span class="o">/</span><span class="k">if</span><span class="o">-</span><span class="n">providence</span>
-<span class="n">Pawtucket2</span><span class="p">:</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">ImaginingFutures</span><span class="o">/</span><span class="n">pawtucket2</span><span class="o">/</span><span class="n">tree</span><span class="o">/</span><span class="k">if</span><span class="o">-</span><span class="n">pawtucket</span>
-</pre></div>
-</div>
-</section>
-<section id="notes">
-<h2>Notes<a class="headerlink" href="#notes" title="Permalink to this heading">#</a></h2>
-<hr class="footnotes docutils" />
-<aside class="footnote brackets" id="id2" role="note">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
-<p>The Collective Access codebase is divided into two components: Providence and Pawtucket. Providence is the backend component, which is responsible for the management of the data. Pawtucket is the frontend component, which is responsible for the presentation of the data. See <a class="reference external" href="https://manual.collectiveaccess.org/intro/whatIs.html">Collective Access documentation</a> for more information.</p>
-</aside>
-</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -454,21 +431,6 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#branch-structure">Branch structure</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#notes">Notes</a></li>
-</ul>
-  </nav></div>
-
-</div></div>
-              
             
           </div>
           <footer class="bd-footer-content">
@@ -494,7 +456,7 @@ By Imagining Futures repository team
   <div class="footer-item">
     
 <div class="extra_footer">
-  v. α [10-08-2023]<br /><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+  v. 0.0.02 [04-10-2023]<br /><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 </div>
   </div>
   
