@@ -163,6 +163,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="1-sources.html">Collective Access Codebase Strategy</a></li>
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">System requirements</a></li>
 <li class="toctree-l2"><a class="reference internal" href="3-install.html">Providence and Pawtucket2 Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../local-remote-env/0-remote-local.html">Web Application Deployment and Version Control Workflow</a></li>
 </ul>
 </li>
 </ul>
@@ -480,7 +481,8 @@ document.write(`
 <p>The following packages and php modules were installed in the virtual machine that host the packages, following the instructions from <a class="reference external" href="https://manual.collectiveaccess.org/providence/user/setup/systemReq.html#required-and-suggested-software-packages-by-distribution">CA documentation</a>.</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>wget<span class="w"> </span>zip<span class="w"> </span>curl<span class="w"> </span>dcraw<span class="w"> </span>ffmpeg<span class="w"> </span>git-all<span class="w"> </span>ghostscript<span class="w"> </span>imagemagick<span class="w"> </span>libapache2-mod-php8.2<span class="w"> </span>libreoffice<span class="w"> </span><span class="se">\</span>
 <span class="w"> </span>mysql-client<span class="w"> </span>php8.2<span class="w"> </span>php8.2-curl<span class="w"> </span>php8.2-gd<span class="w"> </span>php8.2-intl<span class="w"> </span>php8.2-xml<span class="w"> </span>php8.2-zip<span class="w"> </span>php8.2-bcmath<span class="w"> </span><span class="se">\</span>
-<span class="w"> </span>php8.2-mysql<span class="w"> </span>php8.2-mysqlnd<span class="w"> </span>php8.2-fileinfo<span class="w"> </span>php8.2-gmagick<span class="w"> </span>php8.2-opcache<span class="w"> </span>php8.2-mbstring
+<span class="w"> </span>php8.2-mysql<span class="w"> </span>php8.2-mysqlnd<span class="w"> </span>php8.2-fileinfo<span class="w"> </span>php8.2-gmagick<span class="w"> </span>php8.2-opcache<span class="w"> </span>php8.2-mbstring<span class="w"> </span><span class="se">\</span>
+<span class="w"> </span>php8.2-xmlrpc<span class="w"> </span>php8.2-posix<span class="w"> </span>php8.2-dev<span class="w"> </span>php8.2-redis<span class="w"> </span>php8.2-gmp
 </pre></div>
 </div>
 <p>We skipped the installation of the php-process module, as is pointed out in CA documentation, since there’s no such module in Ubuntu 22.04.</p>
