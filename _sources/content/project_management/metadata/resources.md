@@ -4,6 +4,8 @@ This group represents all the items that make up of each Project. A resource can
 
 You can use this [Template](../../../_static/files/Template_resources.xlsx) to assist you in organizing resource data.
 
+## Group Resources Metadata Terms
+
 ## Identification
 
 ### Unique Record Identifier
@@ -133,7 +135,7 @@ You can use this [Template](../../../_static/files/Template_resources.xlsx) to a
 | Term name     | Primary Language |
 | ------------- | ---------------- |
 | <span style="font-weight:bold;">Definition</span>    | The primary language spoken by the participant (if video or audio resource). The primary language written on the image or in the document.  |
-| <span style="font-weight:bold;">Entry</span>    | String-CV (Language) |
+| <span style="font-weight:bold;">Entry</span>    | [String-CV (Language)](./cv/1-languages.md) |
 | <span style="font-weight:bold;">DC equivalent</span>    | [dc:language](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#language)  |
 | <span style="font-weight:bold;">Repeatable</span>    | Yes |
 | <span style="font-weight:bold;">Modality</span>    | <span style="color: red;">Mandatory</span> if |
@@ -145,7 +147,7 @@ You can use this [Template](../../../_static/files/Template_resources.xlsx) to a
 | Term name     | Other Language |
 | ------------- | -------------- |
 | <span style="font-weight:bold;">Definition</span>    | The other language spoken by the participant (if video or audio resource). The other language written on the image or in the document.  |
-| <span style="font-weight:bold;">Entry</span>    | String-CV (Language) |
+| <span style="font-weight:bold;">Entry</span>    | [String-CV (Language)](./cv/1-languages.md)  |
 | <span style="font-weight:bold;">DC equivalent</span>    | [dc:language](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#language)  |
 | <span style="font-weight:bold;">Repeatable</span>    | Yes |
 | <span style="font-weight:bold;">Modality</span>    |<span style="color: green;">Optional</span>  |
@@ -157,7 +159,7 @@ You can use this [Template](../../../_static/files/Template_resources.xlsx) to a
 | Term name     | Themes  |
 | ------------- | ------- |
 | <span style="font-weight:bold;">Definition</span>    | Descriptive words that are most significant and unique to the resource  |
-| <span style="font-weight:bold;">Entry</span>    | String-CV (Themes) |
+| <span style="font-weight:bold;">Entry</span>    | [String-CV (Themes)](./cv/2-themes.md) |
 | <span style="font-weight:bold;">DC equivalent</span>    |   |
 | <span style="font-weight:bold;">Repeatable</span>    | Yes |
 | <span style="font-weight:bold;">Modality</span>    | <span style="color: orangered;">Strongly Suggested</span> |
@@ -195,7 +197,7 @@ You can use this [Template](../../../_static/files/Template_resources.xlsx) to a
 | Term name     | Country  |
 | ------------- | -------- |
 | <span style="font-weight:bold;">Definition</span>    | The name of the country connected to the resource, where the content of the resource took place.  |
-| <span style="font-weight:bold;">Entry</span>    | String-CV (Countries) |
+| <span style="font-weight:bold;">Entry</span>    | [String-CV (Countries)](./cv/3-countries.md) |
 | <span style="font-weight:bold;">DC equivalent</span>    | [dc:spatial](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#spatial) |
 | <span style="font-weight:bold;">Repeatable</span>    | Yes |
 | <span style="font-weight:bold;">Modality</span>    |<span style="color: green;">Optional</span>  |
@@ -243,7 +245,7 @@ You can use this [Template](../../../_static/files/Template_resources.xlsx) to a
 | Term name     | Coordinates |
 | ------------- | ----------- |
 | <span style="font-weight:bold;">Definition</span>    | Point or array of points that represents the coordinates of a place in space. |
-| <span style="font-weight:bold;">Entry</span>    | Integer  |
+| <span style="font-weight:bold;">Entry</span>    | List of Coordinate Pairs (Floats) |
 | <span style="font-weight:bold;">DC equivalent</span>    | [dc:coverage](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#coverage) |
 | <span style="font-weight:bold;">Repeatable</span>    | Yes |
 | <span style="font-weight:bold;">Modality</span>    |  <span style="color: green;">Optional</span>     |
@@ -281,7 +283,7 @@ You can use this [Template](../../../_static/files/Template_resources.xlsx) to a
 | Term name     | Cultural Context |
 | ------------- | ---------------- |
 | <span style="font-weight:bold;">Definition</span>    | The cultural event or context associated with the resource.  |
-| <span style="font-weight:bold;">Entry</span>    | String-CV (Cultural Context) |
+| <span style="font-weight:bold;">Entry</span>    | [String-CV (Cultural Context)](./cv/4-cultural_context.md) |
 | <span style="font-weight:bold;">DC equivalent</span>    |   |
 | <span style="font-weight:bold;">Repeatable</span>    | Yes |
 | <span style="font-weight:bold;">Modality</span>    | <span style="color: orangered;">Strongly Suggested</span> |
@@ -293,7 +295,7 @@ You can use this [Template](../../../_static/files/Template_resources.xlsx) to a
 | Term name     | Social Group Setting |
 | ------------- | -------------------- |
 | <span style="font-weight:bold;">Definition</span>    | The social group associated with or recorded by the resource.  |
-| <span style="font-weight:bold;">Entry</span>    | String-CV (Social Group) |
+| <span style="font-weight:bold;">Entry</span>    | [String-CV (Social Group)](./cv/5-social_groups.md) |
 | <span style="font-weight:bold;">DC equivalent</span>    |   |
 | <span style="font-weight:bold;">Repeatable</span>    | Yes |
 | <span style="font-weight:bold;">Modality</span>    |<span style="color: green;">Optional</span>  |
@@ -399,8 +401,8 @@ You can use this [Template](../../../_static/files/Template_resources.xlsx) to a
 | <span style="font-weight:bold;">DC equivalent</span>    |   |
 | <span style="font-weight:bold;">Repeatable</span>    | Yes |
 | <span style="font-weight:bold;">Modality</span>    | <span style="color: red;">Mandatory</span> |
-| <span style="font-weight:bold;">Guideline</span>    | Select the level of cultural sensitivity of the content and knowledge of the resource. Consider this carefully before making your selection. ---Highly sensitive – refers to resource that cannot be viewed, downloaded, print nor accessed. The resources in this category are confidential. The depositor, persons connected to the project and repository administrators may have access to the resource. ;Moderately sensitive – refers to resources that are to be viewed only, not to be downloaded and print. Retrievers interested in accessing the resource need to fill ‘Data Retrieval Form’ to justify the need for the resource. Data Retrieval Form to be assessed and approved by the Principal Investigator and co-PIs ;Low sensitivity – refers to resources that are to be shared openly. Retrievers will be able to view, download, print and use  |
-| <span style="font-weight:bold;">Example</span>    | Highly sensitive, Medium sensitivity, Low sensitivity  |
+| <span style="font-weight:bold;">Guideline</span>    | Select the level of cultural sensitivity of the content and knowledge of the resource. Consider this carefully before making your selection. ---Highly sensitive – refers to resource that cannot be viewed, downloaded, print nor accessed. The resources in this category are confidential. The depositor, persons connected to the project and repository administrators may have access to the resource. Moderately sensitive – refers to resources that are to be viewed only, not to be downloaded and print. Retrievers interested in accessing the resource need to fill ‘Data Retrieval Form’ to justify the need for the resource. Data Retrieval Form to be assessed and approved by the Principal Investigator and co-PIs. Low sensitivity – refers to resources that are to be shared openly. Retrievers will be able to view, download, print and use  |
+| <span style="font-weight:bold;">Example</span>    | Highly sensitive, Low sensitive, Moderately sensitive  |
 
 ### Access restriction
 
@@ -433,7 +435,7 @@ You can use this [Template](../../../_static/files/Template_resources.xlsx) to a
 | Term name     | Creator  |
 | ------------- | -------- |
 | <span style="font-weight:bold;">Definition</span>    | The individual that is primarily responsible for the production of the resource.  |
-| <span style="font-weight:bold;">Entry</span>    | String-CV (Participants) |
+| <span style="font-weight:bold;">Entry</span>    | String-Free text |
 | <span style="font-weight:bold;">DC equivalent</span>    | [dc:creator](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#creator) |
 | <span style="font-weight:bold;">Repeatable</span>    | Yes |
 | <span style="font-weight:bold;">Modality</span>    | <span style="color: orangered;">Strongly Suggested</span> |
@@ -445,7 +447,7 @@ You can use this [Template](../../../_static/files/Template_resources.xlsx) to a
 | Term name     | Contributors  |
 | ------------- | ------------- |
 | <span style="font-weight:bold;">Definition</span>    | The individuals that supported the creator or contributed to the production of the resource. |
-| <span style="font-weight:bold;">Entry</span>    | String-CV (Participants) |
+| <span style="font-weight:bold;">Entry</span>    | String-Free text |
 | <span style="font-weight:bold;">DC equivalent</span>    | [dc:contributor](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#contributor) |
 | <span style="font-weight:bold;">Repeatable</span>    | Yes |
 | <span style="font-weight:bold;">Modality</span>    |<span style="color: green;">Optional</span>  |
