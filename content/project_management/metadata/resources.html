@@ -388,7 +388,7 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#notes">Notes</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#geographical-coverage">Geographical Coverage</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#spatial-coverage">Spatial Coverage</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#country">Country</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#region">Region</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#city">City</a></li>
@@ -440,7 +440,8 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="resources">
 <h1>Resources<a class="headerlink" href="#resources" title="Permalink to this heading">#</a></h1>
-<p>This is the description of metadata resources.</p>
+<p>This group represents all the items that make up of each Project. A resource can be a single media element (video, image, audio) or a group of media elements that create a unique resource. For example, it could be a set of images as part of a digitized manuscript or a group of videos describing a festivity.</p>
+<p>You can use this <a class="reference download internal" download="" href="../../../_downloads/53c08c19705a0bf5455ff56deee9aafd/Template_resources.xlsx"><span class="xref download myst">Template</span></a> to assist you in organizing resource data.</p>
 <section id="identification">
 <h2>Identification<a class="headerlink" href="#identification" title="Permalink to this heading">#</a></h2>
 <section id="unique-record-identifier">
@@ -452,25 +453,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>An alphanumeric identifier for the record created for the IF Repository.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-CV – Unique Project Identifier (Projects)</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
-<td><p>dc:identifier</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
+<td><p><a class="reference external" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#identifier">dc:identifier</a></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>No</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Mandatory</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: red;">Mandatory</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
-<td><p>The PIs of each project will receive a pre-assigned unique project identifier. Unique ID’s derivered from that ID and adding 4 digit secuential numbers.</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
+<td><p>The Project Managers of each project will receive a pre-assigned unique project identifier. Unique ID’s derivered from that ID and adding 4 digit secuential ordinal numbers.</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>UFC00800001</p></td>
 </tr>
 </tbody>
@@ -485,25 +486,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>Original/Local identifier for the record given by the local project team.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-Free text</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>No</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Optional</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: green;">Optional</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>International or local identifiers associated with the original material.</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>CO 1/25 (National Archives Reference), 309.6 P.97 (Dewey Classification Number), AGN COL CI Folder 75, Document 2 (ISADG classification), 2019SG07-0239 (Unique ID of a digital collection)</p></td>
 </tr>
 </tbody>
@@ -518,25 +519,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>Shows the parent collection or object which this record related to/part of.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-CV (Projects)</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
-<td><p>dc:isPartOf</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
+<td><p><a class="reference external" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#isPartOf">dc:isPartOf</a></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Mandatory</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: red;">Mandatory</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>Provide the name of the project as it is on the “Projects” sheet</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>Vernacular Songs as Archives and Modes of Social Redress in Jamestown, Accra</p></td>
 </tr>
 </tbody>
@@ -551,25 +552,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>The name given to the resource by the Creator (depositor) in any language.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-Free text</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
-<td><p>dc:title</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
+<td><p><a class="reference external" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#title">dc:title</a></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>No</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Mandatory</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: red;">Mandatory</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>Provide a short title for the resource in any language. Do not use any punctuation. Only capitalize the first alphabet of the project title, acronyms and any personal and geographic names.</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>Aso wiwo awon obinrin ile Yoruba</p></td>
 </tr>
 </tbody>
@@ -584,25 +585,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>The name given to the resource by the Creator (depositor) in other language.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-Free text</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
-<td><p>dc:alternative</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
+<td><p><a class="reference external" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#alternative">dc:alternative</a></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>No</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Optional</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: green;">Optional</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>Provide a translation or modified version of the title attributed to the record.</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>Local-made cloth of a typical Ghanian lady</p></td>
 </tr>
 </tbody>
@@ -617,25 +618,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>Name of the digital file or the folder of multiple files.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-Free text</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>No</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Mandatory</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: red;">Mandatory</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>Provide the name of the digital file. Or if you have more than one file to represent, provide the path of the folder.</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>Example_photo.jpg, UFC00800001/images/folder1</p></td>
 </tr>
 </tbody>
@@ -650,25 +651,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>Name of the website where this resource was published.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-Free text</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Optional</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: green;">Optional</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p></p></td>
 </tr>
 </tbody>
@@ -683,25 +684,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>URL of the website where this resource was published.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-Free text</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
-<td><p>dc:source</p></td>
-</tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Optional</p></td>
-</tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
+<td><p>No</p></td>
+</tr>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: green;">Optional</span></p></td>
+</tr>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p></p></td>
 </tr>
 </tbody>
@@ -719,25 +720,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>A textual description of the content of the resource (knowledge profile = images; documents) in any language, including event and significance connected to the resource. Content descriptions in the case of visual resources</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-Free text</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
-<td><p>dc:description</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
+<td><p><a class="reference external" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#description">dc:description</a></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Strongly Suggested</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: orangered;">Strongly Suggested</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>Provide textual description of the resource in English limited to maximum of three concise sentences. Include important keywords related to the significance of the resource. Since the description field is a potentially rich source of indexable vocabulary, care should be taken to provide this element when possible.</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>Ile alo ti awon omode eya Arika lo ni odun to ti pe</p></td>
 </tr>
 </tbody>
@@ -752,25 +753,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>A textual description of the content of the resource in other language, including event and significance connected to the resource. Content descriptions in the case of visual resources</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-Free text</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
-<td><p>dc:description</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
+<td><p><a class="reference external" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#description">dc:description</a></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Optional</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: green;">Optional</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>Provide textual description of the resource in other language limited to maximum of three concise sentences. Include important keywords related to the significance of the resource. Since the description field is a potentially rich source of indexable vocabulary, care should be taken to provide this element when possible.</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>Story book used for play by Pandalong children to understand the direction of the moon and sun. Created between 1908 and 1910.</p></td>
 </tr>
 </tbody>
@@ -785,25 +786,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>The primary language spoken by the participant (if video or audio resource). The primary language written on the image or in the document.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-CV (Language)</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
-<td><p>dc:language</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
+<td><p><a class="reference external" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#language">dc:language</a></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Mandatory if</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: red;">Mandatory</span> if</p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>Select the primary language spoken in the audio or video file. Select the primary language written on the image or in the document.</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>English;Yoruba;Arabic</p></td>
 </tr>
 </tbody>
@@ -818,25 +819,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>The other language spoken by the participant (if video or audio resource). The other language written on the image or in the document.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-CV (Language)</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
-<td><p>dc:language</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
+<td><p><a class="reference external" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#language">dc:language</a></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Optional</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: green;">Optional</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>Select the other language spoken in the audio or video file. Select the other language written on the image or in the document.</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>English;Yoruba;Arabic</p></td>
 </tr>
 </tbody>
@@ -851,25 +852,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>Descriptive words that are most significant and unique to the resource</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-CV (Themes)</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Strongly Suggested</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: orangered;">Strongly Suggested</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>Provide maximum of five most significant and unique words that can describe the content of the resource. Separate each word with comma</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>Colonised;Forgotten;Inclusion;Post-conflict;Refugee</p></td>
 </tr>
 </tbody>
@@ -884,25 +885,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>Descriptive words that are most significant and unique to the resource</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-Free text</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
-<td><p>dc:subject</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
+<td><p><a class="reference external" href="http://purl.org/dc/elements/1.1/subject">dc:subject</a></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Strongly Suggested</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: orangered;">Strongly Suggested</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>Provide maximum of five most significant and unique words that can describe the content of the resource. Separate each word with comma</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>Migration;Conflict;Community</p></td>
 </tr>
 </tbody>
@@ -917,33 +918,33 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>Any information that you want to add about this data, if you can not find a metadata field according to your need.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String (Free text)</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Optional</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: green;">Optional</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p></p></td>
 </tr>
 </tbody>
 </table>
 </section>
 </section>
-<section id="geographical-coverage">
-<h2>Geographical Coverage<a class="headerlink" href="#geographical-coverage" title="Permalink to this heading">#</a></h2>
+<section id="spatial-coverage">
+<h2>Spatial Coverage<a class="headerlink" href="#spatial-coverage" title="Permalink to this heading">#</a></h2>
 <section id="country">
 <h3>Country<a class="headerlink" href="#country" title="Permalink to this heading">#</a></h3>
 <table class="table">
@@ -953,25 +954,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>The name of the country connected to the resource, where the content of the resource took place.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-CV (Countries)</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
-<td><p>dc:coverage</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
+<td><p><a class="reference external" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#spatial">dc:spatial</a></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Optional</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: green;">Optional</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>Provide the name of the country that is connected to the resource.</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>Argentina, Ghana, South Africa</p></td>
 </tr>
 </tbody>
@@ -986,25 +987,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>The name of the region or state connected to the resource, where the content of the resource took place.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-Free text</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
-<td><p>dc:coverage</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
+<td><p><a class="reference external" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#spatial">dc:spatial</a></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Optional</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: green;">Optional</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>Provide the name of the region/state/province that is connected to the resource.</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>Osun, Chaco, Cape coast</p></td>
 </tr>
 </tbody>
@@ -1019,25 +1020,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
-<td><p></p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
+<td><p>Administrative, jurisdictional or settlement named historicaly or oficially as a city.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-Free text</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
-<td><p>dc:coverage</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
+<td><p><a class="reference external" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#spatial">dc:spatial</a></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Optional</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: green;">Optional</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p></p></td>
 </tr>
 </tbody>
@@ -1052,25 +1053,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>The name of the place/street name/area connected to the resource, where the content of the resource took place.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-Free text</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
-<td><p>dc:coverage</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
+<td><p><a class="reference external" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#spatial">dc:spatial</a></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Strongly Suggested</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: orangered;">Strongly Suggested</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>Provide the name of the place/street name/area that is connected to the resource.</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>Gbongan, Kishi, Sidwell Street</p></td>
 </tr>
 </tbody>
@@ -1085,26 +1086,26 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
-<td><p>Coordinates of the resource.</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
+<td><p>Point or array of points that represents the coordinates of a place in space.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>Integer</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
-<td><p>dc:coverage</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
+<td><p><a class="reference external" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#coverage">dc:coverage</a></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Optional</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: green;">Optional</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>IT should be written as [lang,lat]</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
-<td><p>[10.77555,106.701944]</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
+<td><p>[10.77555,106.701944]; [10.77555,106.701944;11.74205,106.50001]; [10.77555,106.701944;11.74205,106.50001;9.2568,110.45406]</p></td>
 </tr>
 </tbody>
 </table>
@@ -1118,25 +1119,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>This element captures the names of places that do not have specific geographical coordinates or are of imaginary or mythical nature.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-Free text</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
-<td><p>dc:coverage</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
+<td><p><a class="reference external" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#coverage">dc:coverage</a></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Optional</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: green;">Optional</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>Provide the name of a place or space</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>Aztlán, Atlantis, Tattooine</p></td>
 </tr>
 </tbody>
@@ -1154,25 +1155,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>The cultural or ethnic group connected to the resource.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-Free text</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Strongly Suggested</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: orangered;">Strongly Suggested</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>Provide the names of all the cultural or ethnic group/community connected to the resource. This could be more than one.</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>Arabs;Assyrians;Balanta</p></td>
 </tr>
 </tbody>
@@ -1187,25 +1188,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>The cultural event or context associated with the resource.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-CV (Cultural Context)</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Strongly Suggested</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: orangered;">Strongly Suggested</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>Describe the cultural context or event associated with the resource. This descriptor responds to ‘What was happening when the resource was produced?’, ‘What event or practice is the resource recording?’ A list of suggested events is provided but add additional, more specific values to the vocabulary.</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>Dancing;Migration;Singing</p></td>
 </tr>
 </tbody>
@@ -1220,25 +1221,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>The social group associated with or recorded by the resource.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-CV (Social Group)</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Optional</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: green;">Optional</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>Describe the social group associated with the resource. This descriptor responds to ‘What is the description of the people recorded by the resources?’ A list of suggested social group is provided but add additional, more specific values to the vocabulary.  e.g. <a class="reference external" href="https://simplicable.com/society/social-groups">https://simplicable.com/society/social-groups</a></p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>Classmates;Family;Committees</p></td>
 </tr>
 </tbody>
@@ -1256,25 +1257,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>The defined way adopted to produce the resource.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-Free text</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Optional</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: green;">Optional</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>Describe the technique used in producing the resource. This descriptor responds to ‘How was the resource produced?’ A list of relevant production technique is provided but additional techniques can be added.</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>Photography;Report writing;Audio recording;Video recording</p></td>
 </tr>
 </tbody>
@@ -1289,25 +1290,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>The equipment used directly for the production of the resource.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-Free text</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Optional</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: green;">Optional</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>List all the equipment used for the production of the resource. Provide the general names of each equipment, separated with commas.</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>Tripod stand;DSLR camera;Video recording</p></td>
 </tr>
 </tbody>
@@ -1325,25 +1326,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>A point or period of time associated with the creation of the resource.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>Integer</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
-<td><p>dc:created</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
+<td><p><a class="reference external" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#created">dc:created</a></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Strongly Suggested</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: orangered;">Strongly Suggested</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>Enter the date the resource was created. Recommended practice is to express date using the format YYYY-MM-DD [ISO 8601-1]. If the full date is unknown, month and year (YYYY-MM) or just year (YYYY) may be used.</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>2022-01-04 or 2022-01 or 2022</p></td>
 </tr>
 </tbody>
@@ -1358,25 +1359,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>A point or period of time associated with the digitisation of the resource. E.g. scanning, photographing date.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>Integer</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Strongly Suggested</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: orangered;">Strongly Suggested</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>Enter the date the resource was created. Recommended practice is to express date using the format YYYY-MM-DD [ISO 8601-1]. If the full date is unknown, month and year (YYYY-MM) or just year (YYYY) may be used.</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>2022-01-04 or 2022-01 or 2022</p></td>
 </tr>
 </tbody>
@@ -1391,25 +1392,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>A point or period of time associated with the publication of the resource.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>Integer</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Optional</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: green;">Optional</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>Enter the date the resource was created. Recommended practice is to express date using the format YYYY-MM-DD [ISO 8601-1]. If the full date is unknown, month and year (YYYY-MM) or just year (YYYY) may be used.</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>2022-01-04 or 2022-01 or 2022</p></td>
 </tr>
 </tbody>
@@ -1427,25 +1428,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>Information about the individual/community/groups/organisation who owns the rights in and over the resource.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-CV (Participants)</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
-<td><p>dc:rightsHolder</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
+<td><p><a class="reference external" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#rightsHolder">dc:rightsHolder</a></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Mandatory</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: red;">Mandatory</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>Select the participant or community that owns the rights in and over the resource from the participants vocabulary. You can add names of individual/community/organisation that are not on the list to the vocabulary list, then here.</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>Name Surname;University of Ghana;Ilesa community</p></td>
 </tr>
 </tbody>
@@ -1460,25 +1461,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
-<td><p>Information about the shareability, distribution and adaptation of the resource</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
+<td><p>Information about the shareability, distribution and adaptation of the resource by users.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
-<td><p>String-CV (Licence)</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
+<td><p>String-CV (Rights)</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
-<td><p>dc:licence</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
+<td><p><a class="reference external" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#rights">dc:rights</a></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Mandatory</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: red;">Mandatory</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
-<td><p>Select which licence is applicable to the resource. Consider this carefully before making your selection.</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
+<td><p>Select which license, public domain mark or right statement is applicable to the resource. If not sure, select a restricted approach so the resource can be opened in the future.</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>CC BY-NC; In Copy Right</p></td>
 </tr>
 </tbody>
@@ -1493,25 +1494,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>This refers to the attributed standard that governs the content and knowledge of the resources and who can access the resource.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-CV (Cultural sensitivity)</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Mandatory</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: red;">Mandatory</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>Select the level of cultural sensitivity of the content and knowledge of the resource. Consider this carefully before making your selection. —Highly sensitive – refers to resource that cannot be viewed, downloaded, print nor accessed. The resources in this category are confidential. The depositor, persons connected to the project and repository administrators may have access to the resource. ;Moderately sensitive – refers to resources that are to be viewed only, not to be downloaded and print. Retrievers interested in accessing the resource need to fill ‘Data Retrieval Form’ to justify the need for the resource. Data Retrieval Form to be assessed and approved by the Principal Investigator and co-PIs ;Low sensitivity – refers to resources that are to be shared openly. Retrievers will be able to view, download, print and use</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>Highly sensitive, Medium sensitivity, Low sensitivity</p></td>
 </tr>
 </tbody>
@@ -1526,26 +1527,26 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>This refers to availability of the resource.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
-<td><p>Boolean – Access</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
+<td><p>String-CV – Access Restrictions</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
-<td><p>Yes</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
+<td><p>No</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Mandatory if</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: red;">Mandatory</span> if</p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
-<td><p>Select the level of access that is appropriate to the resource. Consider this carefully before making your selection. —Yes – refers to resources that are restricted. If you choose ‘Yes’, you need to justify ;No – refers to resources with no access restriction. Resources will be made openly available.</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
+<td><p>Select the level of access that is appropriate to the resource. “Accessible to public” will make the resource open to see and download for any visitor to the repository; “Not accessible to public” will keep the resource in private; “Restricted public access” makes the resource accessible only to registered users. This conditions can be change after the resource is ingested in the repository.</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
-<td><p>Yes, No</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
+<td><p>“Accessible to public”</p></td>
 </tr>
 </tbody>
 </table>
@@ -1559,25 +1560,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>Justification for limiting access to the resources</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-Free text</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Mandatory if</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: red;">Mandatory</span> if</p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
-<td><p>The field is mandatory if the value for ‘Access restriction’ is Yes. Provide justifications for limiting the access to the resource and specify the consequences and potential impacts of making the resource accessible. Specify if access to the resource should ne restricted permanently or for a specific period of time.</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
+<td><p>The field is <span style="color: red;">Mandatory</span> if the value for ‘Access restriction’ is Yes. Provide justifications for limiting the access to the resource and specify the consequences and potential impacts of making the resource accessible. Specify if access to the resource should ne restricted permanently or for a specific period of time.</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>The image records various civil protests and disobedience is countries that are repressive. Making the image accessible could make the persons connected to the image targets. Therefore, access to the image should be permanently restricted.</p></td>
 </tr>
 </tbody>
@@ -1595,25 +1596,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>The individual that is primarily responsible for the production of the resource.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-CV (Participants)</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
-<td><p>dc:creator</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
+<td><p><a class="reference external" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#creator">dc:creator</a></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Strongly Suggested</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: orangered;">Strongly Suggested</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>Select the participant that is primarily responsible for the production of the resource. If many participants are involved, select the lead person for the production of the resource and list other as contributors.</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>Name Surname;Name2 Surname2</p></td>
 </tr>
 </tbody>
@@ -1628,25 +1629,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Definition</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Definition</span></p></td>
 <td><p>The individuals that supported the creator or contributed to the production of the resource.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Entry</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Entry</span></p></td>
 <td><p>String-CV (Participants)</p></td>
 </tr>
-<tr class="row-even"><td><p>DC equivalent</p></td>
-<td><p>dc:contributor</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">DC equivalent</span></p></td>
+<td><p><a class="reference external" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#contributor">dc:contributor</a></p></td>
 </tr>
-<tr class="row-odd"><td><p>Repeatable</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Repeatable</span></p></td>
 <td><p>Yes</p></td>
 </tr>
-<tr class="row-even"><td><p>Modality</p></td>
-<td><p>Optional</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Modality</span></p></td>
+<td><p><span style="color: green;">Optional</span></p></td>
 </tr>
-<tr class="row-odd"><td><p>Guideline</p></td>
+<tr class="row-odd"><td><p><span style="font-weight:bold;">Guideline</span></p></td>
 <td><p>List all the individuals that contributed or supported the production of the resources. Separate each contributor with commas.</p></td>
 </tr>
-<tr class="row-even"><td><p>Example</p></td>
+<tr class="row-even"><td><p><span style="font-weight:bold;">Example</span></p></td>
 <td><p>Name Surname;Name2 Surname2</p></td>
 </tr>
 </tbody>
@@ -1743,7 +1744,7 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#notes">Notes</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#geographical-coverage">Geographical Coverage</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#spatial-coverage">Spatial Coverage</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#country">Country</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#region">Region</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#city">City</a></li>
